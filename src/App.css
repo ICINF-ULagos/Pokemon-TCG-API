@@ -1,0 +1,159 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.tcgicon {
+  max-width: 26%;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+
+.main_search{
+  padding-top: 2vh;
+}
+
+h3 {
+  color: white;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.bkgd{
+  background-image: url("https://free4kwallpapers.com/uploads/originals/2018/06/18/created-a-3d-render-of-a-pokemon-trophy-in-the-grass-wallpaper.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+}
+
+.bkgd-login {
+  background-image: url("https://images7.alphacoders.com/310/thumb-1920-310611.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.container-carousel{
+  padding: 4rem 10rem 10vh 10rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 3rem;
+  padding: 0rem 6rem 0rem 6rem;
+}
+
+.grid img {
+  width: 245px;
+  height: 342px;
+}
+
+.search{
+  margin-bottom: auto;
+  margin-top: auto;
+  height: 70px;
+  background-color: #fff;
+  border-radius: 40px;
+  padding: 10px;
+}
+
+.search_input{
+  color: black;
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  margin-top:5px;
+  caret-color:transparent;
+  line-height: 40px;
+  transition: width 0.4s linear;
+}
+
+.search .search_input{
+  padding: 0 10px;
+  width: 550px;
+  caret-color:rgb(0, 132, 255);
+  transition: width 0.4s linear;
+}
+
+.search:hover > .search_icon{
+  background: rgb(0, 132, 255);
+  color: #fff;
+}
+
+.search_icon{
+  height: 50px;
+  width: 50px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color:white;
+  background-color:black;
+}
+  
+a:link{
+  text-decoration:none;
+}
+
+.card-image {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.card-image:hover{
+  transform: scale(1.1);
+}
+
+nav{
+  background-color: black;
+  overflow: hidden;
+  height: 50px;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
